@@ -1,0 +1,25 @@
+body {
+    background: url(../img/winter.jpg) no-repeat center fixed ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'Jeju Hallasan', serif;
+}
+
+.rowHeight{
+    height:500px;
+}
+
+.awep {
+    color: #fff
+}
+
+.imgp{
+    width : 300px;
+    height : 200px
+}
+
+.footer{
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}

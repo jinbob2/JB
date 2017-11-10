@@ -1,0 +1,23 @@
+body {
+    /* background-color: black; */
+    background: url(../img/winter.jpg) no-repeat center fixed;
+    backgroun-size: cover;
+}
+.h6{
+    font-size: 30px;
+}
+
+.hero{
+    color: #003232;
+    margin-top: 10%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    line-height: 1.2em;
+    font-family: 'Jeju Hallasan', serif;
+}
+
+.ima {
+    width:200px;
+    height:100px;
+    margin : 20px;
+}

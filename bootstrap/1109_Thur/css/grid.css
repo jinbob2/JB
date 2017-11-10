@@ -1,0 +1,44 @@
+.green {
+    background-color: green;
+    height:100vh;
+}
+
+@media (max-width:575px){
+    .green{
+       background-color: green;
+       height:100vh;
+    }
+}
+/*sm*/
+@media (max-width:575px) and (max-width:767px){
+    .green{
+       background-color: orange;
+       height:100vh;
+    }
+}
+/*md*/
+@media (max-width:768px) and (max-width:991px){
+    .green{
+       background-color: yellow;
+       height:100vh;
+    }
+}
+/*lg*/
+@media (max-width:992px) and (max-width:1199px){
+    .green{
+       background-color: grey;
+       height:100vh;
+    }
+}
+/*xl*/
+@media (max-width:1200ox) {
+    .green{
+       background-color: pink;
+       height:100vh;
+    }
+}
+
+.con {
+    background-color: #alalal;
+    height: 100vh;
+}

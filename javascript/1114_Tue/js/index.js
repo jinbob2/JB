@@ -176,6 +176,7 @@ function third() {
 }
 
 function second() {
+
     var b ="Hi!" ;
     third();
     console.log("second Hi");

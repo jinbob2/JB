@@ -1,4 +1,4 @@
-/** Created by JinmanLee on 2017. 11. 15.. ...*/
+/** Created by JinmanLee on 2017. 11. 15.. .*/
 
 var name = "John" ;
 var birth = 20 ;

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <script src="jquery-3.2.1.js"></script>
+    <style>
+        #test1{
+        //display:none;
+        position: absolute;
+        width:400px;
+        height: 400px;
+        background-color:pink;
+        }
+    </style>
+    <script>
+        $(document).ready(function (){
+            $('#test1').animate({
+                'top': 100,
+                'left': 200
+                }, 1000, function(){
+                    alert('animate end');
+                });
+        });
+    </script>
+</head>
+<body>
+        <div id="test1">hello world</div>
+</body>
+</html>
